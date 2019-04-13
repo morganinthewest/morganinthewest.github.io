@@ -119,36 +119,36 @@ var prof = [
 		case randomNumber < 0:
 			break;
 		case randomNumber < 10:
-			flavor = 0;
+			group = 0;
 			break;
 		case randomNumber < 17:
-			flavor = 1;
+			group = 1;
 			break;
 		case randomNumber < 23:
-			flavor = 2;
+			group = 2;
 			break;
-		case 23:
-		case 24:
-			flavor = 3;
+		case randomNumber = 23:
+		case randomNumber = 24:
+			group = 3;
 			break;
 		case randomNumber < 39:
-			flavor = 4;
+			group = 4;
 			break;
 		case randomNumber < 47:
-			flavor = 5;
+			group = 5;
 			break;
 		case  randomNumber < 52:
-			flavor = 6;
+			group = 6;
 			break;
 		case randomNumber < 66:
-			flavor = 7;
+			group = 7;
 			break;
 		default: 
-			flavor = 8;
+			group = 8;
 			break;
 	}
 
-	document.getElementById('profTypeDisplay').innerHTML = prof[flavor] + ', ' + profType[randomNumber];
+	document.getElementById('profTypeDisplay').innerHTML = prof[group] + ', ' + profType[randomNumber];
 
 
 	
