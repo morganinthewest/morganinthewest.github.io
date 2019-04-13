@@ -127,8 +127,7 @@ var prof = [
 		case randomNumber < 23:
 			group = 2;
 			break;
-		case randomNumber = 23:
-		case randomNumber = 24:
+		case randomNumber < 25:
 			group = 3;
 			break;
 		case randomNumber < 39:
