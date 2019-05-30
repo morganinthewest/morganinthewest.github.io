@@ -98,7 +98,14 @@ var profType = [
 'Animal Handler',
 'Tithe Collector',
 'Land Surveyor',
-'Guide'
+'Guide',
+'Ash-robed Priest',
+'Resurrectionist',
+'Champion Hunter',
+'Saturnal Priestess',
+'Battlefield Preacher',
+'Sacred Foundry Attendant',
+'Bellows Boy'
 ]
 
 var prof = [
@@ -110,7 +117,11 @@ var prof = [
 'Merchant',
 'Noble',
 'Craftsperson',
-'Citizen'
+'Citizen',
+'Pilgrim of Hodh',
+'Pilgrim of Youndeh',
+'Pilgrim of Hadri'
+
 ]
 
 {function newProfession() {
@@ -142,8 +153,17 @@ var prof = [
 		case randomNumber < 66:
 			group = 7;
 			break;
-		default: 
+		case randomNumber < 101:
 			group = 8;
+			break;
+		case randomNumber < 104:
+			group = 9;
+			break;
+		case randomNumber < 105:
+			group = 10;
+			break;
+		default: 
+			group = 11;
 			break;
 	}
 
