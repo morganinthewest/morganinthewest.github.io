@@ -156,10 +156,10 @@ var prof = [
 		case randomNumber < 101:
 			group = 8;
 			break;
-		case randomNumber < 104:
+		case randomNumber < 103:
 			group = 9;
 			break;
-		case randomNumber < 105:
+		case randomNumber < 104:
 			group = 10;
 			break;
 		default: 
