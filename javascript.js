@@ -105,7 +105,8 @@ var profType = [
 'Saturnal Priestess',
 'Battlefield Preacher',
 'Sacred Foundry Attendant',
-'Bellows Boy'
+'Bellows Boy',
+'Veiled Idol Escort'
 ]
 
 var prof = [
@@ -120,7 +121,8 @@ var prof = [
 'Citizen',
 'Pilgrim of Hodh',
 'Pilgrim of Youndeh',
-'Pilgrim of Hadri'
+'Pilgrim of Hadri',
+'Pilgrim of Hertha'
 
 ]
 
@@ -162,8 +164,11 @@ var prof = [
 		case randomNumber < 104:
 			group = 10;
 			break;
-		default: 
+		case randomNumber < 106:
 			group = 11;
+			break;
+		default: 
+			group = 12;
 			break;
 	}
 
